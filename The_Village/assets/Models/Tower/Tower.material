@@ -1,0 +1,135 @@
+material Color_B18
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.4 0.219607843137255 0.156862745098039 1.0
+      }
+   }
+}
+material TrafficCone
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.917647058823529 0.596078431372549 0.0 1.0
+      }
+   }
+}
+material Metal_Aluminum_Anodized
+{
+   technique
+   {
+      pass
+      {
+         54.0, 54.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Aluminum_Anodized.jpg
+         }
+      }
+   }
+}
+material [Metal_Aluminum_Anodized]1
+{
+   technique
+   {
+      pass
+      {
+         54.0, 54.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Aluminum_Anodized.jpg
+         }
+      }
+   }
+}
+material Metal_Corrogated_Shiny
+{
+   technique
+   {
+      pass
+      {
+         4.0, 4.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Corrogated_Shiny.jpg
+         }
+      }
+   }
+}
+material [Metal_Aluminum_Anodized]2
+{
+   technique
+   {
+      pass
+      {
+         54.0, 54.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Aluminum_Anodized.jpg
+         }
+      }
+   }
+}
+material Stone_Coursed_Rough
+{
+   technique
+   {
+      pass
+      {
+         300.0, 300.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Stone_Coursed_Rough.jpg
+         }
+      }
+   }
+}
+material [Stone_Coursed_Rough]1
+{
+   technique
+   {
+      pass
+      {
+         250.0, 250.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Stone_Coursed_Rough.jpg
+         }
+      }
+   }
+}
+material [Stone_Coursed_Rough]2
+{
+   technique
+   {
+      pass
+      {
+         290.0, 290.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Stone_Coursed_Rough.jpg
+         }
+      }
+   }
+}
+material SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+      }
+   }
+}

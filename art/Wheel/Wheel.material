@@ -1,0 +1,233 @@
+material Derrick_Shoes
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.4 0.27843137254902 0.23921568627451 1.0
+      }
+   }
+}
+material Derrick_Shirt
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.47843137254902 0.47843137254902 0.6 1.0
+      }
+   }
+}
+material Derrick_Hair
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.337254901960784 0.298039215686275 0.27843137254902 1.0
+      }
+   }
+}
+material Derrick_Pager
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.137254901960784 0.137254901960784 0.137254901960784 1.0
+      }
+   }
+}
+material Derrick_Sweater
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.556862745098039 0.556862745098039 0.556862745098039 1.0
+      }
+   }
+}
+material Derrick_T-shirt
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.886274509803922 0.886274509803922 0.886274509803922 1.0
+      }
+   }
+}
+material Derrick_Pants
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.6 0.537254901960784 0.47843137254902 1.0
+      }
+   }
+}
+material Derrick
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.823529411764706 0.705882352941177 0.549019607843137 1.0
+      }
+   }
+}
+material Blue_Glass
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         diffuse 0.392156862745098 0.584313725490196 0.929411764705882 0.8
+      }
+   }
+}
+material DimGray
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.411764705882353 0.411764705882353 0.411764705882353 1.0
+      }
+   }
+}
+material Tile_Limestone_Multi
+{
+   technique
+   {
+      pass
+      {
+         50.0, 50.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Tile_Limestone_Multi.jpg
+         }
+      }
+   }
+}
+material Stone_Coursed_Rough
+{
+   technique
+   {
+      pass
+      {
+         84.0, 84.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Stone_Coursed_Rough.jpg
+         }
+      }
+   }
+}
+material [Tile_Limestone_Multi]1
+{
+   technique
+   {
+      pass
+      {
+         32.0, 32.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Tile_Limestone_Multi.jpg
+         }
+      }
+   }
+}
+material Roofing_Shingles_Asphalt
+{
+   technique
+   {
+      pass
+      {
+         67.0, 67.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Roofing_Shingles_Asphalt.jpg
+         }
+      }
+   }
+}
+material Wood_Cherry_Original
+{
+   technique
+   {
+      pass
+      {
+         72.0, 72.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Wood_Cherry_Original.jpg
+         }
+      }
+   }
+}
+material Metal_Aluminum_Anodized
+{
+   technique
+   {
+      pass
+      {
+         54.0, 54.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Aluminum_Anodized.jpg
+         }
+      }
+   }
+}
+material Stone_Marble
+{
+   technique
+   {
+      pass
+      {
+         48.0, 48.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Stone_Marble.jpg
+         }
+      }
+   }
+}
+material Metal_Rough
+{
+   technique
+   {
+      pass
+      {
+         8.0, 8.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Rough.jpg
+         }
+      }
+   }
+}
+material SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+      }
+   }
+}

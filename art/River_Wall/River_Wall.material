@@ -1,0 +1,165 @@
+material Derrick_Shoes
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.4 0.27843137254902 0.23921568627451 1.0
+      }
+   }
+}
+material Derrick_Shirt
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.47843137254902 0.47843137254902 0.6 1.0
+      }
+   }
+}
+material Derrick_Hair
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.337254901960784 0.298039215686275 0.27843137254902 1.0
+      }
+   }
+}
+material Derrick_Pager
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.137254901960784 0.137254901960784 0.137254901960784 1.0
+      }
+   }
+}
+material Derrick_Sweater
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.556862745098039 0.556862745098039 0.556862745098039 1.0
+      }
+   }
+}
+material Derrick_T-shirt
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.886274509803922 0.886274509803922 0.886274509803922 1.0
+      }
+   }
+}
+material Derrick_Pants
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.6 0.537254901960784 0.47843137254902 1.0
+      }
+   }
+}
+material Derrick
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.823529411764706 0.705882352941177 0.549019607843137 1.0
+      }
+   }
+}
+material Stone_Coursed_Rough
+{
+   technique
+   {
+      pass
+      {
+         300.0, 300.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Stone_Coursed_Rough.jpg
+         }
+      }
+   }
+}
+material [Stone_Coursed_Rough]1
+{
+   technique
+   {
+      pass
+      {
+         250.0, 250.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Stone_Coursed_Rough.jpg
+         }
+      }
+   }
+}
+material Fencing_Mesh_Blue
+{
+   technique
+   {
+      pass
+      {
+         250.0, 250.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Fencing_Mesh_Blue.png
+         }
+      }
+   }
+}
+material Metal_Rusted
+{
+   technique
+   {
+      pass
+      {
+         18.0, 18.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Rusted.jpg
+         }
+      }
+   }
+}
+material Metal_Aluminum_Anodized
+{
+   technique
+   {
+      pass
+      {
+         54.0, 54.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Aluminum_Anodized.jpg
+         }
+      }
+   }
+}
+material SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+      }
+   }
+}

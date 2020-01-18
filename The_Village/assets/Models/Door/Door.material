@@ -1,0 +1,120 @@
+material Derrick_Shoes
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.4 0.27843137254902 0.23921568627451 1.0
+      }
+   }
+}
+material Derrick_Shirt
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.47843137254902 0.47843137254902 0.6 1.0
+      }
+   }
+}
+material Derrick_Hair
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.337254901960784 0.298039215686275 0.27843137254902 1.0
+      }
+   }
+}
+material Derrick_Pager
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.137254901960784 0.137254901960784 0.137254901960784 1.0
+      }
+   }
+}
+material Derrick_Sweater
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.556862745098039 0.556862745098039 0.556862745098039 1.0
+      }
+   }
+}
+material Derrick_T-shirt
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.886274509803922 0.886274509803922 0.886274509803922 1.0
+      }
+   }
+}
+material Derrick_Pants
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.6 0.537254901960784 0.47843137254902 1.0
+      }
+   }
+}
+material Derrick
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.823529411764706 0.705882352941177 0.549019607843137 1.0
+      }
+   }
+}
+material Wood_Cherry_Original
+{
+   technique
+   {
+      pass
+      {
+         72.0, 72.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Wood_Cherry_Original.jpg
+         }
+      }
+   }
+}
+material Metal_Rough
+{
+   technique
+   {
+      pass
+      {
+         8.0, 8.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Rough.jpg
+         }
+      }
+   }
+}
+material SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+      }
+   }
+}
